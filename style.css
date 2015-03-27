@@ -1,0 +1,348 @@
+#header { 
+    margin:0 auto;
+    position: relative; 
+    background: url("images/Header.jpg"); 
+    width: 945px; 
+    height: 120px; 
+}
+
+#footer {
+    bottom: 0;
+    margin:0 auto;
+    position: relative; 
+    background: url("images/Footer.jpg");
+    background-repeat:no-repeat;
+    width: 945px; 
+    height: 100px;
+}
+
+#create {
+    position: relative; 
+    margin:0 auto;
+    top: 25px; 
+    background: url('images/Register.jpg'); 
+    background-repeat:no-repeat;
+    width: 701px; 
+    height: 413px;
+    padding-bottom: 50px;
+}
+
+#reg_page {
+    width: 500px;
+    margin:0 auto;
+    position: relative; 
+
+}
+
+#reg_top {
+    height: 70px;
+}
+
+#create p {
+    padding-left: 100px;
+}
+#create input {
+    width: 9em;
+    text-align: right;
+    margin-right: 0.5em;
+
+}
+
+#create .btn {
+    margin-top: 160px; 
+    height: 100px;
+    width: 6em;
+    margin-left: 50em;
+
+}
+
+#adminfooter{
+	top:-15px;
+	bottom: 0;
+    margin:0 auto;
+    position: relative; 
+    background: url("images/Footer.jpg");
+    background-repeat:no-repeat;
+    width: 945px; 
+    height: 100px;
+}
+
+#adminsettings {
+	top:-15px;
+	text-align:center;
+	margin:0 auto;
+    position:relative; 
+	text-align:left; 
+	width: 945px; 
+	height: 350px; 
+	background: url('images/Body.jpg');
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#adminother {
+	top:-15px;
+	text-align:center;
+	margin:0 auto;
+    position:relative; 
+	text-align:left; 
+	width: 945px; 
+	background: url('images/Body.jpg');
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#mysite {
+	text-align:center;
+	margin:0 auto;
+    position:relative; 
+	text-align:left; 
+	width: 945px; 
+	height: 650px; 
+	background: url('images/webBody.jpg');
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+#mysite table{
+	border-style:solid; 
+	border-width:1px;
+	text-align:left; 
+	position: relative; 
+	top: 5px; 
+	right:-710px; 
+	width: 200px; 
+	height: 300px; 
+	z-index:0;
+}
+
+#mymanage{
+	text-align:center;
+	margin:0 auto;
+    position:relative; 
+	text-align:left; 
+	width: 945px;  
+	background: url('images/Body.jpg');
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+DIV.managemain {
+	position: relative; 
+	left:30px; 
+	width:880px; 
+	top:10px; 
+	font-size: 11px; 
+	font-family:Tahoma;
+}
+
+#mymanage h1 {
+	font-size: 16px;
+}
+
+DIV.sidebar{
+	position:absolute; 
+	text-align:left; 
+	top:10px; 
+	left:30px;
+}
+
+DIV.adsetmain{
+	position: relative; 
+	left:30px; 
+	width:880px; 
+	top:10px; 
+	font-size: 11px; 
+	font-family:Tahoma;
+}
+
+DIV.maincontent{
+	position:absolute; 
+	top:10px; 
+	left:250px; 
+	font-family:Tahoma; 
+	width:640px;
+}
+
+SPAN.name{
+	font-size:20px; 
+	font-weight:bold;
+}
+
+SPAN.title{
+	font-size:14px;
+	font-style:italic;
+}
+
+SPAN.phone{
+	font-size:14px;
+}
+
+SPAN.class{
+	font-size:20px; 
+	font-weight:bold;
+}
+
+/* 
+
+    Document   : Style
+
+    Description:
+
+        This stylesheet defines the styles for the entire CS website management portal
+        as well as CS websites which are created using it.
+
+*/
+
+/* 
+
+   TODO customize this sample style
+
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+
+*/
+
+
+
+a:link {color:#FFFFFF}    /* unvisited link */ /* [CS.0001] */
+a:visited {color:#FFFFFF} /* visited link */
+a:hover {color:#FF0000}   /* mouse over link */
+a:active {color:#FFFFFF}  /* selected link */
+
+DIV.toplink {
+    position: absolute;
+    font-family:Tahoma;
+    font-size: 11px;
+    background-color: #434542;
+    top: 1em;
+    right: 3em;
+    /*width: 120px;*/
+    padding: 4px;
+}
+
+
+DIV.loginl { /* [CSS.0002] */
+    position: absolute;
+    font-family:Tahoma;
+    font-size: 11px;
+    top: 207px;
+    right: 310px;
+    width: 150px;
+    padding: 4px;
+    text-align: left;
+}
+
+DIV.logine { /* [CSS.0002] */
+    position: absolute;
+    font-family:Tahoma;
+    font-size: 11px;
+    color: red;
+    top: 157px;
+    right: 210px;
+    width: 250px;
+    padding: 4px;
+    text-align: left;
+}
+
+
+
+DIV.logins { /* [CSS.0002] */
+    position: absolute;
+    font-family:Tahoma;
+    font-size: 11px;
+    top: 210px;
+    right: 50px;
+    width: 150px;
+    padding: 4px;
+    text-align: left;
+}
+
+DIV.loginh { /* [CSS.0002] */
+    color:white;
+    position: absolute;
+    font-family:Tahoma;
+    font-size: 20px;
+    top: 15px;
+    right: 280px;
+    width: 400px;
+    padding: 4px;
+}
+
+
+DIV.loginu { /* [CSS.0002] */
+    color:black;
+    position: absolute;
+    font-family:Tahoma;
+    font-size: 11px;
+    top: 90px;
+    right: 20px;
+    width: 500px;
+    padding: 4px;
+}
+
+DIV.loginp { /* [CSS.0002] */
+    color:black;
+    position: absolute;
+    font-family:Tahoma;
+    font-size: 11px;
+    top: 120px;
+    right: 19px;
+    width: 500px;
+    padding: 4px;
+}
+
+
+DIV.regsubt {
+	font-size:10px; 
+	color:gray; 
+	height:10px; 
+	top:0px
+}
+
+
+
+DIV.webtext {
+        padding: 4px;
+        font-size:12px;
+        font-weight: bold;
+        font-family:Tahoma;
+	color:black;
+	height:11px;
+}
+
+DIV.linkbox {
+    border-style:solid;
+    border-width:1px;
+    width:175px;
+    padding:4px;
+    color:white;
+}
+
+DIV.weblink {
+        padding: 4px;
+        font-size:14px;
+        font-family:Tahoma;
+	color:black;
+	height:11px;
+}
+
+.weblink a:link {color:#FFFFFF}    /* unvisited link */ /* [CS.0001] */
+.weblink a:visited {color:#FFFFFF} /* visited link */
+.weblink a:hover {color:#000000}   /* mouse over link */
+.weblink a:active {color:#000000}  /* selected link */
+
+DIV.nlink {
+    font-family:Tahoma;
+}
+
+.nlink a:link {color:#FF0000}    /* unvisited link */ /* [CS.0001] */
+.nlink a:visited {color:#FF0000} /* visited link */
+.nlink a:hover {color:#000000}   /* mouse over link */
+.nlink a:active {color:#000000}  /* selected link */
+
+crop
+{
+	width:60px;
+	height:90px;
+	overflow:hidden;
+}
